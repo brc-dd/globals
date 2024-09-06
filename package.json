@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "@brc-dd/globals",
+  "version": "0.1.0",
+  "description": "Get Node.js globals inside Deno",
+  "keywords": [
+    "global",
+    "deno",
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/brc-dd/globals",
+    "email": "brc-dd@hotmail.com"
+  },
+  "repository": {
+    "url": "git+https://github.com/brc-dd/globals.git"
+  },
+  "funding": "https://github.com/sponsors/brc-dd",
+  "license": "MIT",
+  "author": "Divyansh Singh <brc-dd@hotmail.com> (https://github.com/brc-dd)",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist/*"
+  ],
+  "packageManager": "pnpm@9.9.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@brc-dd/console-error": "^0.0.2",
+    "@types/node": "^22.5.4",
+    "tsup": "^8.2.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}
